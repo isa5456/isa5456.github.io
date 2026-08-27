@@ -375,8 +375,16 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  
+  group_by: type, year
   group_order: descending
+
+  type_names: 
+    misc: Preprints 
+    article: Journal Articles 
+    talk: Talks 
+    poster: Posters 
+    thesis: Theses
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
