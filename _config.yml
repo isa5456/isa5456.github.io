@@ -8,11 +8,11 @@ middle_name: María
 last_name: Moreno Cuadrado
 url: https://isa5456.github.io
 baseurl:
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-Personal academic website of Isabel Maria Moreno Cuadrado. Researcher in mathematics at the Instituto de Ciencias Matemáticas (ICMAT).
-footer_text: > Powered by Jekyll with the al-folio theme. Hosted by GitHub Pages.
+contact_note: "You can even add a little note about which of these is the best way to reach you."
+
+description: "Personal academic website of Isabel Maria Moreno Cuadrado. Researcher in mathematics at the Instituto de Ciencias Matemáticas (ICMAT)."
+
+footer_text: "Powered by Jekyll with the al-folio theme. Hosted by GitHub Pages."
 
 keywords: Isabel Maria Moreno Cuadrado, Isabel Moreno Cuadrado, ICMAT, mathematics, mathematical research
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
