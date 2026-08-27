@@ -16,7 +16,7 @@ profile:
     
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -31,6 +31,6 @@ latest_posts:
 
 I am a PhD Student Researcher at [Instituto de Ciencias Matemáticas (ICMAT)](https://www.icmat.es/) under a Severo Ochoa contract funded by the Spanish National Research Council (CSIC). I studied my Master's Degree in Advanced Mathematics at Universidad Complutense de Madrid (UCM) with the support of a grant from ICMAT. My bachelor's degree was a Double Degree in Mathematics and Computer Science at University of Granada (UGR).
 
-My mathematical interests lie in the areas of **functional analysis and quantum information**. My PhD project is titled *Multilinear Inequalities in Functional Analysis*, under the supervision of **David Pérez-García** and **Carlos Palazuelos Cabezón**. You may find my research-related publications in the [Research](/publications/) section.
+My mathematical interests lie in the areas of **functional analysis and quantum information**. My PhD project is titled *Multilinear Inequalities in Functional Analysis*, under the supervision of **David Pérez-García** and **Carlos Palazuelos Cabezón**. 
 
 You can contact me at my [email address](mailto:TU_EMAIL), and find out more about my career on [LinkedIn](TU_LINKEDIN). Here is [my CV](/assets/pdf/cv_isabel_moreno.pdf).
