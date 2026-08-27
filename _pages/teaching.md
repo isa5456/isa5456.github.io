@@ -1,12 +1,14 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Course materials, schedules, and resources for classes taught.
+title: Teaching
+description: Teaching activities and course materials.
 nav: true
-nav_order: 6
-calendar: true
+nav_order: 4
 ---
+## 2024–2025
+- **Analysis of One Variable.** Complutense University of Madrid (UCM).
+  - Problem sessions for the BSc in Mathematics and the Double Degrees in Mathematics–Physics and Mathematics–Computer Science.
 
 This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
 
