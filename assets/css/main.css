@@ -23,24 +23,26 @@
 @use "teachings";
 @use "typograms";
 
-/* Isabel customizations */
+/* =========================================
+   Isabel custom styles
+   ========================================= */
 
-/* Miguel-style blue */
+/* BLUE THEME */
 :root {
-  --global-theme-color: #0076df;
-  --global-hover-color: #0076df;
+  --global-theme-color: #0076df !important;
+  --global-hover-color: #0076df !important;
 }
 
 html[data-theme="dark"] {
-  --global-theme-color: #2698ba;
-  --global-hover-color: #2698ba;
+  --global-theme-color: #2698ba !important;
+  --global-hover-color: #2698ba !important;
 }
 
-/* Hide "ctrl k" / "⌘ k" but keep search icon */
+/* Hide ctrl k text but keep magnifying glass */
 #search-toggle .nav-link {
-  font-size: 0;
+  font-size: 0 !important;
 }
 
 #search-toggle .nav-link i {
-  font-size: 1rem;
+  font-size: 1rem !important;
 }
