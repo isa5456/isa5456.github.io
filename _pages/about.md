@@ -29,8 +29,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD Student Researcher at [Instituto de Ciencias Matemáticas (ICMAT)](https://www.icmat.es/) under a Severo Ochoa contract funded by the Spanish National Research Council (CSIC). I studied my Master's Degree in Advanced Mathematics at Universidad Complutense de Madrid (UCM) with the support of a grant from ICMAT. My bachelor's degree was a Double Degree in Mathematics and Computer Science at University of Granada (UGR).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My mathematical interests lie in the areas of **functional analysis and quantum information**. My PhD project is titled *Multilinear Inequalities in Functional Analysis*, under the supervision of **David Pérez-García** and **Carlos Palazuelos Cabezón**. You may find my research-related publications in the [Research](/publications/) section.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+You can contact me at my [email address](mailto:TU_EMAIL), and find out more about my career on [LinkedIn](TU_LINKEDIN). Here is [my CV](/assets/pdf/cv_isabel_moreno.pdf).
