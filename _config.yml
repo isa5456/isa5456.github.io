@@ -2,20 +2,19 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Mi página personal
-first_name: TuNombre
-last_name: TuApellido
+title: Isabel María Moreno Cuadrado
+first_name: Isabel 
+middle_name: María
+last_name: Moreno Cuadrado
 url: https://isa5456.github.io
 baseurl:
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+Personal academic website of Isabel Maria Moreno Cuadrado. Researcher in mathematics at the Instituto de Ciencias Matemáticas (ICMAT).
+footer_text: > Powered by Jekyll with the al-folio theme. Hosted by GitHub Pages.
+
+keywords: Isabel Maria Moreno Cuadrado, Isabel Moreno Cuadrado, ICMAT, mathematics, mathematical research
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
@@ -109,8 +108,8 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
@@ -355,8 +354,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Moreno Cuadrado]
+  first_name: [Isabel María]
 
   style: apa
   locale: en
