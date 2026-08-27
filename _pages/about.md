@@ -6,7 +6,7 @@ subtitle: PhD Student Researcher in Mathematics.
 
 profile:
   align: right
-  image: isabel_prof_pic.jpg
+  image: isabel.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Office 408</p> 
