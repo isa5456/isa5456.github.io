@@ -1,0 +1,46 @@
+---
+---
+
+@charset "utf-8";
+
+@use "sass:math";
+@use "sass:string";
+
+@use "variables" with (
+  $max-content-width: {{ site.max_width | default: "930px" }}
+);
+
+@use "themes";
+@use "layout";
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/* Isabel customizations */
+
+/* Miguel-style blue */
+:root {
+  --global-theme-color: #0076df;
+  --global-hover-color: #0076df;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #2698ba;
+  --global-hover-color: #2698ba;
+}
+
+/* Hide "ctrl k" / "⌘ k" but keep search icon */
+#search-toggle .nav-link {
+  font-size: 0;
+}
+
+#search-toggle .nav-link i {
+  font-size: 1rem;
+}
