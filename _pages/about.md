@@ -33,4 +33,4 @@ I am a PhD Student Researcher at [Instituto de Ciencias Matemáticas (ICMAT)](ht
 
 My mathematical interests lie in the areas of **functional analysis and quantum information**. My PhD project is titled *Multilinear Inequalities in Functional Analysis*, under the supervision of **David Pérez-García** and **Carlos Palazuelos Cabezón**. 
 
-You can contact me at my [email address](mailto:TU_EMAIL), and find out more about my career on [LinkedIn](TU_LINKEDIN). Here is [my CV](/assets/pdf/cv_isabel_moreno.pdf).
+You can contact me at my [email address](mailto:TU_EMAIL), and find out more about my career on [LinkedIn](https://www.linkedin.com/in/isabelmorenocuadrado). Here is [my CV](/assets/pdf/cv.pdf).
