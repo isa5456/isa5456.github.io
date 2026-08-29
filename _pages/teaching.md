@@ -6,6 +6,10 @@ description: Here you can find information related to my teaching. Relevant teac
 nav: true
 nav_order: 4
 ---
+## 2025–2026
+- **Analysis of One Variable.** Complutense University of Madrid (UCM).
+  - Problem sessions for the BSc in Mathematics and the Double Degrees in Mathematics–Physics and Mathematics–Computer Science.
+
 ## 2024–2025
 - **Analysis of One Variable.** Complutense University of Madrid (UCM).
   - Problem sessions for the BSc in Mathematics and the Double Degrees in Mathematics–Physics and Mathematics–Computer Science.
