@@ -15,7 +15,7 @@ nav_order: 1
 .publications h2.bibliography {
   color: var(--global-text-color);
   font-weight: 700;
-  font-size: 1.55rem;
+  font-size: 1.77rem;
   margin-top: 2.8rem;
   margin-bottom: 1.2rem;
   padding-bottom: 0.45rem;
