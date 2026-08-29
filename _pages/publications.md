@@ -6,7 +6,6 @@ description: Research publications, talks, posters, research visits, and other r
 nav: true
 nav_order: 1
 ---
-
 <style>
 .publications h2.bibliography {
   color: var(--global-text-color);
@@ -20,13 +19,11 @@ nav_order: 1
 .publications h3.bibliography {
   color: var(--global-text-color);
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1.35rem;
   margin-top: 1.5rem;
   margin-bottom: 0.8rem;
 }
 </style>
-
-<div class="publications">
 
 {% bibliography %}
 
