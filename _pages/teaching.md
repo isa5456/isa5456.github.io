@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Teaching activities and course materials.
+description: Here you can find information related to my teaching. Relevant teaching materials will also appear here.
 nav: true
 nav_order: 4
 ---
@@ -12,6 +12,6 @@ nav_order: 4
 
 This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+#{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
 
 {% include courses.liquid %}
