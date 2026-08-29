@@ -375,15 +375,19 @@ scholar:
   details_link: Details
 
   query: "@*"
-  
-  group_by: type, year
-  group_order: descending
+  sort_by: year, month
+  order: descending, descending
 
-  type_names: 
-    misc: Preprints 
-    article: Journal Articles 
-    talk: Talks 
-    poster: Posters 
+  group_by: type, year
+  group_order: ascending, descending
+  type_order: [misc, article, talk, poster, visit, thesis]
+
+  type_names:
+    misc: Preprints
+    article: Journal Articles
+    talk: Talks
+    poster: Posters
+    visit: Research Visits & Programs
     thesis: Theses
 
 # Display different badges withs stats for your publications
