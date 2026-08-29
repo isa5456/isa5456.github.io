@@ -17,7 +17,7 @@ nav_order: 2
 
 I enjoy communicating mathematics and science beyond the research community. I am particularly interested in making ideas from mathematics, quantum information, and artificial intelligence accessible to students and broader audiences, and in encouraging young people to explore mathematics and research.
 
-## Outreach Talks
+
 
 ## 2026
 
