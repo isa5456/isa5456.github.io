@@ -19,8 +19,10 @@ nav_order: 1
 
 .publications h3.bibliography {
   color: var(--global-text-color);
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 1.1rem;
   margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
 }
 </style>
 
