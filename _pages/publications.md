@@ -80,13 +80,13 @@ nav_order: 1
 
 /* Research Contract */
 .publications .abbr abbr.abbr-research-contract {
-  background-color: #7c3aed !important;
+  background-color: #4f6f8f !important;
   color: white !important;
 }
 
 /* Research Program */
 .publications .abbr abbr.abbr-research-program {
-  background-color: #2563eb !important;
+  background-color: #2f7f7f !important;
   color: white !important;
 }
 
