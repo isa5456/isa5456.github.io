@@ -33,10 +33,8 @@ I enjoy communicating mathematics and science beyond the research community. I a
   *Celebrating Women in Mathematics in Madrid*, Complutense University of Madrid, May 2026.
 
 ## 2025
-
-- **What can pure mathematics tell us about how we learn?** National Meeting of Mathematics Students (ENEM), Granada, Spain, July 2025.
-
-- **Academic careers in mathematics.** Informational session at the National Meeting of Mathematics Students (ENEM), Granada, Spain, July 2025.
+- **Academic careers in mathematics.**
+   Informational session at the National Meeting of Mathematics Students (ENEM), Granada, Spain, July 2025.
 
 ## 2024
 
