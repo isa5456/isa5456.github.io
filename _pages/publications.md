@@ -89,7 +89,6 @@ nav_order: 1
   background-color: #2f7f7f !important;
   color: white !important;
 }
-
 /* MSc / BSc Thesis */
 .publications .abbr abbr.abbr-thesis {
   background-color: #5c6570 !important;
