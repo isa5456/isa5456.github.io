@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Student Researcher in Mathematics.
+subtitle: PhD Student Researcher in Mathematics
 
 profile:
   align: right
