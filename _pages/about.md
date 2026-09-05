@@ -31,7 +31,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD Student Researcher at [Instituto de Ciencias Matemáticas (ICMAT)](https://www.icmat.es/) under a Severo Ochoa contract funded by the Spanish National Research Council (CSIC). I studied my Master's Degree in Advanced Mathematics at Universidad Complutense de Madrid (UCM) with the support of a grant from ICMAT. My bachelor's degree was a Double Degree in Mathematics and Computer Science at University of Granada (UGR).
+I am a first-year PhD student at [Instituto de Ciencias Matemáticas (ICMAT)](https://www.icmat.es/) under a Severo Ochoa contract funded by the Spanish National Research Council (CSIC). I studied my Master's Degree in Advanced Mathematics at Universidad Complutense de Madrid (UCM) with the support of a grant from ICMAT. My bachelor's degree was a Double Degree in Mathematics and Computer Science at University of Granada (UGR).
 
 My mathematical interests lie in the areas of **functional analysis and quantum information**. My PhD project is titled *Multilinear Inequalities in Functional Analysis*, under the supervision of **David Pérez-García** and **Carlos Palazuelos Cabezón**. 
 
