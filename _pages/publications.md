@@ -12,24 +12,28 @@ nav_order: 1
    RESEARCH SECTIONS: Talks, Posters, etc.
    ========================================== */
 
+<style>
+/* Research sections: Talks, Posters, etc. */
 .publications h2.bibliography {
   color: var(--global-text-color);
   font-weight: 700;
-  font-size: 1.77rem;
+  font-size: 1.6rem;
   margin-top: 2.8rem;
   margin-bottom: 1.2rem;
-  padding-bottom: 0.45rem;
+  padding-bottom: 0.4rem;
   border-bottom: 1px solid var(--global-divider-color);
 }
 
-/* Years: larger, but NOT bold */
+/* Years: make them look like normal h3 headings */
 .publications h3.bibliography {
-  color: var(--global-text-color);
-  font-weight: 400;
-  font-size: 1.35rem;
-  margin-top: 1.7rem;
-  margin-bottom: 0.9rem;
+  color: var(--global-text-color) !important;
+  font-size: 1.75rem !important;
+  font-weight: 400 !important;
+  line-height: 1.25 !important;
+  margin-top: 1.6rem !important;
+  margin-bottom: 1rem !important;
 }
+</style>
 
 /* ==========================================
    LABELS
