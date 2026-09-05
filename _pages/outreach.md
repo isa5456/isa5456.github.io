@@ -20,6 +20,9 @@ I enjoy communicating mathematics and science beyond the research community. I a
 
 
 ## 2026
+- **The Gestalt Exhibition at the 13th Heidelberg Laureate Forum.**  
+  Exploring the intersection of mathematics, science, and art. [See my contribution here](https://demian-goos.de/isap-2026-13th-hlf/artworks/isabel-maria-moreno-cuadrado/).
+  
 - **Science communication at CLAUQSI.**  
   Participation in a mathematics outreach video. [Watch the video on YouTube](https://www.youtube.com/watch?v=J4T0-ZlE2tw).
 
