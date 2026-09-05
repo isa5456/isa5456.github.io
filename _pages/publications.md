@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Research
-description: Research publications, talks, posters, research visits, and other research-related activities.
+description: Research publications, talks, posters, research programs, and other research-related activities.
 nav: true
 nav_order: 1
 ---
@@ -10,7 +10,7 @@ nav_order: 1
 <style>
 /* ==========================================
    MAIN RESEARCH SECTIONS
-   Talks, Posters, Research Visits, etc.
+   Talks, Posters, Research Experience, etc.
    ========================================== */
 
 .publications h2.bibliography:not(.bibliography-year),
@@ -78,15 +78,15 @@ nav_order: 1
   color: white !important;
 }
 
-/* Research Stay */
-.publications .abbr abbr.abbr-research-stay {
-  background-color: #52758c !important;
+/* Research Contract */
+.publications .abbr abbr.abbr-research-contract {
+  background-color: #7c3aed !important;
   color: white !important;
 }
 
-/* Program */
-.publications .abbr abbr.abbr-program {
-  background-color: #7656a8 !important;
+/* Research Program */
+.publications .abbr abbr.abbr-research-program {
+  background-color: #2563eb !important;
   color: white !important;
 }
 
@@ -113,11 +113,13 @@ document.addEventListener("DOMContentLoaded", function () {
   document
     .querySelectorAll(".publications .bibliography")
     .forEach(function (heading) {
+
       const text = heading.textContent.trim();
 
       if (/^(19|20)\d{2}$/.test(text)) {
         heading.classList.add("bibliography-year");
       }
+
     });
 
   /* ==========================================
@@ -133,29 +135,39 @@ document.addEventListener("DOMContentLoaded", function () {
         .toLowerCase();
 
       if (text === "seminar") {
+
         label.classList.add("abbr-seminar");
 
       } else if (text === "conference") {
+
         label.classList.add("abbr-conference");
 
       } else if (text === "workshop") {
+
         label.classList.add("abbr-workshop");
 
       } else if (text === "journal club") {
+
         label.classList.add("abbr-journal-club");
 
       } else if (text === "research talk") {
+
         label.classList.add("abbr-research-talk");
 
-      } else if (text === "research stay") {
-        label.classList.add("abbr-research-stay");
+      } else if (text === "research contract") {
 
-      } else if (text === "program") {
-        label.classList.add("abbr-program");
+        label.classList.add("abbr-research-contract");
+
+      } else if (text === "research program") {
+
+        label.classList.add("abbr-research-program");
 
       } else if (text.includes("thesis")) {
+
         label.classList.add("abbr-thesis");
+
       }
+
     });
 
 });
