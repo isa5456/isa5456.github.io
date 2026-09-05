@@ -39,49 +39,6 @@ nav_order: 1
   border-bottom: none !important;
 }
 
-
-/* ==========================================
-   RESEARCH STATISTICS
-   ========================================== */
-
-.research-stats {
-  display: flex;
-  justify-content: center;
-  gap: 3.5rem;
-  flex-wrap: wrap;
-  margin: 2rem 0 3rem 0;
-  text-align: center;
-}
-
-.research-stat {
-  min-width: 110px;
-  padding: 0.7rem 1rem;
-  border-radius: 10px;
-  transition:
-    transform 0.2s ease,
-    background-color 0.2s ease;
-}
-
-.research-stat:hover {
-  transform: translateY(-3px);
-  background-color: rgba(0, 118, 223, 0.06);
-}
-
-.research-stat-number {
-  display: block;
-  color: #0076df;
-  font-size: 2.2rem;
-  font-weight: 400;
-  line-height: 1;
-  margin-bottom: 0.4rem;
-}
-
-.research-stat-label {
-  font-size: 0.9rem;
-  color: var(--global-text-color);
-}
-
-
 /* ==========================================
    COLOURED LABELS
    ========================================== */
@@ -140,39 +97,17 @@ nav_order: 1
 }
 </style>
 
-
-<div class="research-stats">
-
-  <div class="research-stat">
-    <span class="research-stat-number" id="talk-count">0</span>
-    <span class="research-stat-label">Talks</span>
-  </div>
-
-  <div class="research-stat">
-    <span class="research-stat-number" id="poster-count">0</span>
-    <span class="research-stat-label">Posters</span>
-  </div>
-
-  <div class="research-stat">
-    <span class="research-stat-number" id="visit-count">0</span>
-    <span class="research-stat-label">Research Visits</span>
-  </div>
-
-</div>
-
-
 <div class="publications">
 
 {% bibliography %}
 
 </div>
 
-
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
   /* ==========================================
-     DETECT YEARS
+     DETECT YEARS AUTOMATICALLY
      ========================================== */
 
   document
@@ -184,7 +119,6 @@ document.addEventListener("DOMContentLoaded", function () {
         heading.classList.add("bibliography-year");
       }
     });
-
 
   /* ==========================================
      COLOUR LABELS AUTOMATICALLY
@@ -223,88 +157,6 @@ document.addEventListener("DOMContentLoaded", function () {
         label.classList.add("abbr-thesis");
       }
     });
-
-
-  /* ==========================================
-     COUNT ENTRIES IN A RESEARCH SECTION
-     ========================================== */
-
-  function countEntries(sectionNames) {
-
-    const headings = document.querySelectorAll(
-      ".publications h2.bibliography, .publications h3.bibliography"
-    );
-
-    for (const heading of headings) {
-
-      const headingText = heading.textContent
-        .trim()
-        .toLowerCase();
-
-      const isCorrectSection = sectionNames.some(function (name) {
-        return headingText === name.toLowerCase();
-      });
-
-      if (!isCorrectSection) {
-        continue;
-      }
-
-      let count = 0;
-      let element = heading.nextElementSibling;
-
-      while (element) {
-
-        if (
-          element.matches &&
-          element.matches("h2.bibliography")
-        ) {
-          break;
-        }
-
-        if (
-          element.matches &&
-          element.matches("li")
-        ) {
-          count += 1;
-        }
-
-        if (element.querySelectorAll) {
-          count += element.querySelectorAll("li").length;
-        }
-
-        element = element.nextElementSibling;
-      }
-
-      return count;
-    }
-
-    return 0;
-  }
-
-
-  /* ==========================================
-     UPDATE THE NUMBERS
-     ========================================== */
-
-  const talks = countEntries([
-    "Talks"
-  ]);
-
-  const posters = countEntries([
-    "Posters"
-  ]);
-
-  const visits = countEntries([
-    "Research Visits & Programs",
-    "Research Stays & Programs",
-    "Research Visits",
-    "Research Stays"
-  ]);
-
-
-  document.getElementById("talk-count").textContent = talks;
-  document.getElementById("poster-count").textContent = posters;
-  document.getElementById("visit-count").textContent = visits;
 
 });
 </script>
