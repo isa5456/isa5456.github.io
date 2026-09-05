@@ -12,9 +12,8 @@ nav_order: 1
    RESEARCH SECTIONS: Talks, Posters, etc.
    ========================================== */
 
-<style>
-/* Research sections: Talks, Posters, etc. */
-.publications h2.bibliography {
+.publications h2.bibliography:not(.bibliography-year),
+.publications h3.bibliography:not(.bibliography-year) {
   color: var(--global-text-color);
   font-weight: 700;
   font-size: 1.6rem;
@@ -24,16 +23,18 @@ nav_order: 1
   border-bottom: 1px solid var(--global-divider-color);
 }
 
-/* Years: make them look like normal h3 headings */
-.publications h3.bibliography {
+/* Years: 2026, 2025, etc. */
+.publications .bibliography-year {
   color: var(--global-text-color) !important;
-  font-size: 1.75rem !important;
+  font-size: 1.8rem !important;
   font-weight: 400 !important;
   line-height: 1.25 !important;
-  margin-top: 1.6rem !important;
+  margin-top: 1.7rem !important;
   margin-bottom: 1rem !important;
+  padding-bottom: 0 !important;
+  border-bottom: none !important;
 }
-</style>
+
 
 /* ==========================================
    LABELS
@@ -86,7 +87,7 @@ nav_order: 1
   color: white !important;
 }
 
-/* MSc / BSc thesis */
+/* MSc / BSc Thesis */
 .publications .abbr abbr.abbr-thesis {
   background-color: #5c6570 !important;
   color: white !important;
@@ -101,6 +102,16 @@ nav_order: 1
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
+  /* Detect year headings automatically */
+  document.querySelectorAll(".publications .bibliography").forEach(function (heading) {
+    const text = heading.textContent.trim();
+
+    if (/^(19|20)\d{2}$/.test(text)) {
+      heading.classList.add("bibliography-year");
+    }
+  });
+
+  /* Give each research label its own colour */
   document.querySelectorAll(".publications .abbr abbr").forEach(function (label) {
     const text = label.textContent.trim().toLowerCase();
 
