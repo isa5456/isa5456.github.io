@@ -15,7 +15,7 @@ related_posts: false
 
 <p>During the stay, I had the chance to visit the company <strong>Tencent</strong> and give a research talk at the <strong>Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)</strong> on <em>Towards Lower Bounds in Position-Based Cryptography</em>. I am very grateful to <strong>Miguel Tierz</strong> for the warm welcome and for making the visit possible.</p>
 
-<p>It was a really fun mix of mathematics, quantum information, technology, and Chinese practice — definitely one of the highlights of my summer!</p> 
+<p>It was a really fun mix of mathematics, quantum information, technology, and Chinese practice, definitely one of the highlights of my summer!</p> 
 
 </div>
 
