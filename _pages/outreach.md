@@ -29,7 +29,7 @@ I enjoy communicating mathematics and science beyond the research community. I a
 - **Collaboration with the ICMAT Scientific Culture Unit.**  
   Participation in science communication activities for social media, aimed at bringing mathematics and mathematical research to a broader audience. [See ICMAT's outreach content on TikTok](https://www.tiktok.com/@icmates).
   
-- **Celebrating Women in Mathematics conference**  
+- **Celebrating Women in Mathematics conference.**  
   *Yoshiko Ogata: pioneering work in the mathematical theory of quantum spin systems.* Complutense University of Madrid, May 2026. [Video](https://www.youtube.com/watch?v=iSip7L1l65E).
 
 ## 2025
