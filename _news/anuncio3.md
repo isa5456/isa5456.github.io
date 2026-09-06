@@ -7,7 +7,7 @@ related_posts: false
 
 <div style="display: flex; align-items: flex-start; gap: 1rem; margin-top: 0.8rem; flex-wrap: wrap;">
 
-<img src="/assets/img/simis.webp" alt="Summer in Shanghai" style="width: 110px; max-width: 30%; border-radius: 8px;">
+<img src="/assets/img/simis.webp" alt="Summer in Shanghai" style="width: 140px; max-width: 35%; border-radius: 8px;">
 
 <div style="flex: 1; min-width: 220px;">
 
