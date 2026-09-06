@@ -1,13 +1,25 @@
 ---
 layout: post
-date: 2026-09-01
+date: 2026-09-01 12:00:00+0200
 inline: true
 related_posts: false
 ---
 
-<div style="display: flex; align-items: flex-start; gap: 1rem; margin-top: 0.8rem; flex-wrap: wrap;">
+<div
+  style="
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 0.8rem;
+    flex-wrap: wrap;
+  "
+>
 
-<img src="/assets/img/simis.webp" alt="Summer in Shanghai" style="width: 120px; max-width: 30%; border-radius: 8px">
+<img
+  src="/assets/img/simis.webp"
+  alt="Summer in Shanghai"
+  style="width: 120px; max-width: 30%; border-radius: 8px"
+/>
 
 <div style="flex: 1; min-width: 220px">
 
