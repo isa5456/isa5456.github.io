@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-09-06 
+date: 2026-09-06
 inline: true
 related_posts: false
 ---
@@ -16,6 +16,8 @@ related_posts: false
     Very excited to have been selected as a <strong>Young Researcher for the 13th Heidelberg Laureate Forum</strong>!
 
     I will be in Heidelberg from <strong>12–19 September 2026</strong> for a week of mathematics, computer science, and inspiring conversations with researchers from around the world, including laureates of the <strong>Fields Medal, Abel Prize, and ACM A.M. Turing Award</strong>.
+
+    I am especially looking forward to the laureate lecture by <strong>Charles H. Bennett and Gilles Brassard</strong>, pioneers of quantum information science and quantum cryptography. Their work is particularly close to my own research interests, which makes this opportunity even more special.
 
     It is a real honour to be part of this experience!
   </div>
