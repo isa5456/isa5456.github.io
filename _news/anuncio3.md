@@ -18,7 +18,7 @@ related_posts: false
 <img
   src="/assets/img/simis.webp"
   alt="Summer in Shanghai"
-  style="width: 120px; max-width: 30%; border-radius: 8px"
+  style="height: 170px; width: auto; border-radius: 8px"
 />
 
 <div style="flex: 1; min-width: 220px">
