@@ -10,7 +10,7 @@ I will be in Heidelberg for a week of mathematics, computer science, and inspiri
 It is a real honour to be part of this experience!
 <div style="text-align: center; margin-top: 1rem;">
   <img
-    src="/assets/img/heidelberg_announcement.jpg"
+    src="/assets/img/heidelberg.jpg"
     alt="13th Heidelberg Laureate Forum"
     style="width: 40%; max-width: 350px; border-radius: 8px;"
   >
