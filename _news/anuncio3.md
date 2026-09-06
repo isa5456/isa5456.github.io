@@ -13,7 +13,7 @@ related_posts: false
 
 <p>This summer I spent a month in Shanghai, which gave me the perfect excuse to practise my Chinese a bit more and experience the city from a very different perspective.</p>
 
-<p>During the stay, I had the chance to visit <strong>Tencent</strong>, one of China's largest technology companies, and learn more about its work in artificial intelligence and emerging technologies.</p>
+<p>During the stay, I had the chance to visit <strong>Tencent</strong>, one of China's largest technology companies.</p>
 
 <p>I also gave a research talk at the <strong>Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)</strong> on <em>Towards Lower Bounds in Position-Based Cryptography</em>. I am very grateful to <strong>Miguel Tierz</strong> for the warm welcome and for making the visit possible.</p>
 
